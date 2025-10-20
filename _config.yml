@@ -2,14 +2,14 @@ title: "Steve Jobs – Bilingual Biography"
 description: "Arabic & English biography with Apple-style dark glass theme"
 theme: minima
 
-# IMPORTANT for Pages
-url: ""    # set to https://USERNAME.github.io when you have it
-baseurl: ""
+# Set these so links/meta resolve correctly:
+url: "https://hossamtabana.github.io"
+baseurl: "/steve-jobs-bio"
 
 lang: en
 
 sass:
-  sass_dir: assets
+  sass_dir: assets    # LOOK: we compile from /assets
   style: compressed
 
 minima:
