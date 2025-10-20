@@ -13,6 +13,7 @@
   --border: #1f2430;
   --radius: 14px;
   --shadow: 0 10px 30px rgba(0,0,0,.35);
+  --maxw: 980px;
 }
 
 html, body {
@@ -21,16 +22,15 @@ html, body {
   font-family: -apple-system, BlinkMacSystemFont, "SF Pro Display", "Segoe UI", Roboto, sans-serif;
 }
 
+.wrapper { background: transparent !important; }
+
 .page-container {
-  max-width: 960px;
-  margin: 40px auto;
+  max-width: var(--maxw);
+  margin: 40px auto 80px auto;
   padding: 0 20px;
 }
 
-a {
-  color: var(--accent);
-  text-decoration: none;
-}
+a { color: var(--accent); text-decoration: none; }
 a:hover { text-decoration: underline; }
 
 img {
@@ -40,10 +40,7 @@ img {
   height: auto;
 }
 
-h1, h2, h3, h4 {
-  color: #fff;
-  font-weight: 600;
-}
+h1, h2, h3, h4 { color: #fff; font-weight: 700; }
 
 blockquote {
   border-left: 3px solid var(--accent);
@@ -53,34 +50,17 @@ blockquote {
   border-radius: 8px;
 }
 
-.table-wrap {
-  overflow-x: auto;
-  border-radius: var(--radius);
-  border: 1px solid var(--border);
-}
-table {
-  width: 100%;
-  border-collapse: collapse;
-  min-width: 560px;
-}
-th, td {
-  border-bottom: 1px solid var(--border);
-  padding: 12px 14px;
-  text-align: start;
-}
-thead th {
-  background: rgba(255,255,255,0.04);
-  color: #fff;
-}
-tbody tr:hover {
-  background: rgba(255,255,255,0.03);
-}
+.table-wrap { overflow-x: auto; border-radius: var(--radius); border: 1px solid var(--border); }
+table { width:100%; border-collapse: collapse; min-width: 560px; }
+th, td { border-bottom: 1px solid var(--border); padding: 12px 14px; text-align: start; }
+thead th { background: rgba(255,255,255,0.04); color:#fff; }
+tbody tr:hover { background: rgba(255,255,255,0.03); }
 
-pre, code {
-  background: #0f1115;
-  color: #d6deeb;
-  border-radius: 10px;
-}
+pre, code { background: #0f1115; color:#d6deeb; border-radius: 10px; }
+pre { padding: 14px 16px; border:1px solid var(--border); overflow-x:auto; }
 
-.center { text-align: center; }
-.mt-6 { margin-top: 24px; }
+.center { text-align:center; }
+.mt-6 { margin-top:24px; }
+
+/* Arabic helper class for proper direction */
+.ar { direction: rtl; text-align: start; }
