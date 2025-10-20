@@ -1,9 +1,11 @@
 ---
 layout: default
-title: "Steve Jobs – Bilingual Biography | سيرة ثنائية"
+title: "Steve Jobs – Bilingual Biography | سيرة ستيف جوبز ثنائية"
+description: "A bilingual (English–Arabic) biography of Steve Jobs, designed with Apple’s minimalist dark-glass aesthetic."
+image: "https://upload.wikimedia.org/wikipedia/commons/f/f5/Steve_Jobs_Headshot_2010-CROP.jpg"
 ---
 
-<div class="page-container">
+<div class="page-container" markdown="1">
 
 # 🌟 Steve Jobs – The Man Who Changed the World  
 # 🌟 ستيف جوبز – الرجل الذي غيّر العالم
@@ -43,17 +45,25 @@ title: "Steve Jobs – Bilingual Biography | سيرة ثنائية"
 
 ---
 
-## 💡 Legacy | الإرث
-> “The people who are crazy enough to think they can change the world are the ones who do.”  
-> «الأشخاص الذين يظنون أنهم قادرون على تغيير العالم هم من يفعلون ذلك حقًا.»
+## 🧭 Lessons | الدروس
+<div class="table-wrap">
+
+| # | Lesson (EN) | الدرس (AR) |
+|---|-------------|-------------|
+| 1 | Trust the dots | ثق بأن النقاط ستتصل لاحقًا |
+| 2 | Love what you do | افعل ما تحب |
+| 3 | Simplicity is power | البساطة هي القوة |
+| 4 | Failure teaches | الفشل بداية جديدة |
+| 5 | Mortality clarifies | الموت يوضّح ما يهم |
+| 6 | Stay Hungry, Stay Foolish | ابقَ جائعًا، ابقَ أحمقًا |
+
+</div>
 
 ---
 
 ## ✍️ Prepared & Published by
-**Hossam Tabana**  
-📧 hossam.tabana@gmail.com
+**Hossam Tabana** — 📧 hossam.tabana@gmail.com
 
-**أعدّها ونشرها:** حسام طبانه  
-📧 hossam.tabana@gmail.com
+**أعدّها ونشرها:** حسام طبانه — 📧 hossam.tabana@gmail.com
 
 </div>
