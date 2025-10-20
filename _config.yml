@@ -2,10 +2,14 @@ title: "Steve Jobs – Bilingual Biography"
 description: "Arabic & English biography with Apple-style dark glass theme"
 theme: minima
 
-lang: ar
+# IMPORTANT for Pages
+url: ""    # set to https://USERNAME.github.io when you have it
+baseurl: ""
+
+lang: en
 
 sass:
-  sass_dir: assets/css
+  sass_dir: assets
   style: compressed
 
 minima:
