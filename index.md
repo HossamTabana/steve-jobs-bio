@@ -1,8 +1,7 @@
 ---
 layout: default
 title: "Steve Jobs – Bilingual Biography | سيرة ستيف جوبز ثنائية"
-description: "A bilingual (English–Arabic) biography of Steve Jobs, designed with Apple’s minimalist dark-glass aesthetic."
-image: "https://upload.wikimedia.org/wikipedia/commons/f/f5/Steve_Jobs_Headshot_2010-CROP.jpg"
+description: "A bilingual (English–Arabic) biography of Steve Jobs with an Apple-style dark glass aesthetic."
 ---
 
 <div class="page-container" markdown="1">
@@ -14,7 +13,8 @@ image: "https://upload.wikimedia.org/wikipedia/commons/f/f5/Steve_Jobs_Headshot_
 > «ابقَ جائعًا، ابقَ أحمقًا.»
 
 <p class="center mt-6">
-  <img src="https://upload.wikimedia.org/wikipedia/commons/f/f5/Steve_Jobs_Headshot_2010-CROP.jpg" alt="Steve Jobs Portrait" width="520" />
+  <!-- Prefer local images in /images; fallback to remote works too -->
+  <img src="{{ '/images/jobs-portrait.jpg' | relative_url }}" alt="Steve Jobs Portrait" width="520" />
 </p>
 
 ---
@@ -30,7 +30,7 @@ image: "https://upload.wikimedia.org/wikipedia/commons/f/f5/Steve_Jobs_Headshot_
 **Arabic:** في عام 1976، أسس جوبز ووزنياك شركة أبل في كراج منزل والديه.
 
 <p class="center mt-6">
-  <img src="https://upload.wikimedia.org/wikipedia/commons/d/d2/Apple_Garage_2016.jpg" alt="Apple Garage" width="600" />
+  <img src="{{ '/images/apple-garage.jpg' | relative_url }}" alt="Apple Garage" width="640" />
 </p>
 
 ---
@@ -40,7 +40,7 @@ image: "https://upload.wikimedia.org/wikipedia/commons/f/f5/Steve_Jobs_Headshot_
 **Arabic:** قاد جوبز تطوير الماكينتوش، جامعًا بين الفن والتكنولوجيا.
 
 <p class="center mt-6">
-  <img src="https://upload.wikimedia.org/wikipedia/commons/2/2e/Macintosh_128k_transparency.png" alt="Macintosh 1984" width="480" />
+  <img src="{{ '/images/mac-1984.png' | relative_url }}" alt="Macintosh 1984" width="520" />
 </p>
 
 ---
@@ -62,8 +62,7 @@ image: "https://upload.wikimedia.org/wikipedia/commons/f/f5/Steve_Jobs_Headshot_
 ---
 
 ## ✍️ Prepared & Published by
-**Hossam Tabana** — 📧 hossam.tabana@gmail.com
-
+**Hossam Tabana** — 📧 hossam.tabana@gmail.com  
 **أعدّها ونشرها:** حسام طبانه — 📧 hossam.tabana@gmail.com
 
 </div>
