@@ -1,0 +1,15 @@
+title: "Steve Jobs – Bilingual Biography"
+description: "Arabic & English biography with Apple-style dark glass theme"
+theme: minima
+
+lang: ar
+
+sass:
+  sass_dir: assets/css
+  style: compressed
+
+minima:
+  skin: classic
+
+plugins:
+  - jekyll-feed

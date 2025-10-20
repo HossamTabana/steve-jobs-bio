@@ -1,0 +1,86 @@
+---
+---
+
+@import "minima";
+
+/* Apple dark glass theme */
+:root {
+  --bg: #0b0c0f;
+  --card: #121419;
+  --text: #e6e6e6;
+  --muted: #a6adbb;
+  --accent: #5ac8fa;
+  --border: #1f2430;
+  --radius: 14px;
+  --shadow: 0 10px 30px rgba(0,0,0,.35);
+}
+
+html, body {
+  background: var(--bg) !important;
+  color: var(--text);
+  font-family: -apple-system, BlinkMacSystemFont, "SF Pro Display", "Segoe UI", Roboto, sans-serif;
+}
+
+.page-container {
+  max-width: 960px;
+  margin: 40px auto;
+  padding: 0 20px;
+}
+
+a {
+  color: var(--accent);
+  text-decoration: none;
+}
+a:hover { text-decoration: underline; }
+
+img {
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  max-width: 100%;
+  height: auto;
+}
+
+h1, h2, h3, h4 {
+  color: #fff;
+  font-weight: 600;
+}
+
+blockquote {
+  border-left: 3px solid var(--accent);
+  color: var(--muted);
+  padding: 8px 16px;
+  background: rgba(255,255,255,0.03);
+  border-radius: 8px;
+}
+
+.table-wrap {
+  overflow-x: auto;
+  border-radius: var(--radius);
+  border: 1px solid var(--border);
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+  min-width: 560px;
+}
+th, td {
+  border-bottom: 1px solid var(--border);
+  padding: 12px 14px;
+  text-align: start;
+}
+thead th {
+  background: rgba(255,255,255,0.04);
+  color: #fff;
+}
+tbody tr:hover {
+  background: rgba(255,255,255,0.03);
+}
+
+pre, code {
+  background: #0f1115;
+  color: #d6deeb;
+  border-radius: 10px;
+}
+
+.center { text-align: center; }
+.mt-6 { margin-top: 24px; }
